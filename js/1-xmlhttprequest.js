@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 // definicja funkcji ajax
 function ajax( method, url ) {
     
@@ -94,4 +92,6 @@ ajax( "GET", "http://echo.jsontest.com/userId/108/userName/Akademia108/userURL/a
 
 
 
-
+/* document.getElementById('get-new-data').addEventListener('click', function(){
+    ajax( "GET", "http://echo.jsontest.com/userId/108/userName/Akademia108/userURL/akademia108.pl" );
+}); */
